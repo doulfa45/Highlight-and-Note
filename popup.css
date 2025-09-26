@@ -1,0 +1,99 @@
+body {
+  width: 350px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+}
+
+h1 {
+  font-size: 1.4em;
+  text-align: center;
+  color: #fff;
+  background-color: #42a5f5;
+  margin: 0;
+  padding: 15px;
+}
+
+#export-all {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#export-all:hover {
+    background-color: #45a049;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+    background-color: #e3f2fd;
+    padding: 8px;
+    margin: 0;
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.export-site {
+    background-color: #64b5f6;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+.export-site:hover {
+    background-color: #42a5f5;
+}
+
+li {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.note p {
+  margin: 0 0 5px 0;
+}
+
+.note p strong {
+    color: #1e88e5;
+}
+
+.delete-note {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 0.8em;
+    margin-left: 10px;
+}
+
+.delete-note:hover {
+    background-color: #d32f2f;
+}
